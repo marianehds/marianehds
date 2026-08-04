@@ -2,7 +2,7 @@
 
 # ✨ Mariane Halberstadt de Souza ✨
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=28&pause=1000&color=F472B6&center=true&vCenter=true&width=520&lines=Desenvolvedora+Full+Stack+Pleno;React+%7C+TypeScript+%7C+.NET+%7C+SQL+Server" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=28&pause=1000&color=F472B6&center=true&vCenter=true&width=520&lines=Desenvolvedora+Full+Stack+Pleno" alt="Desenvolvedora Full Stack Pleno" />
 
 <br />
 
@@ -32,7 +32,7 @@
 
 ---
 
-<h2><font color="#F472B6">🌸 Sobre</font></h2>
+<img src="https://capsule-render.vercel.app/api?type=transparent&height=45&section=header&text=🌸%20Sobre&fontSize=24&fontColor=F472B6" alt="🌸 Sobre" />
 
 Desenvolvedora **Full Stack Pleno** com **4 anos de experiência** em aplicações web com **React**, **TypeScript** e **C# (.NET Core)**.
 
@@ -41,7 +41,11 @@ Atuo do front-end ao banco de dados — interfaces, APIs, modelagem, regras de n
 🎓 Bacharelado em **Ciência da Computação** (2021 – 2028)
 
 ---
-<h2 align="center"><font color="#F472B6">⭐ Tech stack</font></h2>
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=transparent&height=45&section=header&text=⭐%20Tech%20stack&fontSize=24&fontColor=F472B6" alt="⭐ Tech stack" />
+
+</div>
 
 | Frontend | Backend & dados <img width="1200" height="0"> | Ferramentas |
 | :---: | :---: | :---: |
@@ -51,7 +55,7 @@ Atuo do front-end ao banco de dados — interfaces, APIs, modelagem, regras de n
 
 ---
 
-<h2><font color="#F472B6">✨ Formação & certificações</font></h2>
+<img src="https://capsule-render.vercel.app/api?type=transparent&height=45&section=header&text=📚%20Formação%20%26%20certificações&fontSize=24&fontColor=F472B6" alt="📚 Formação & certificações" />
 
 
 - **Alura** — +35 cursos (Redux, React Hook Form, SQL Server, Git & GitHub, APIs Node.js e mais)
