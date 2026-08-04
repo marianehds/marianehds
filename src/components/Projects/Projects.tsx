@@ -8,10 +8,9 @@ export function Projects() {
     <section id="projetos" className="section projects">
       <Reveal>
         <div className="section__header">
-          <h2 className="section__title section__title--animated anim-title-sparkle">
-            <span>🌸</span> Projetos <span>🌸</span>
+          <h2 className="section__title anim-title-sparkle">
+            Projetos
           </h2>
-          <p className="section__subtitle">Experiências e entregas que marcaram minha trajetória</p>
         </div>
       </Reveal>
 

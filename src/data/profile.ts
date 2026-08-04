@@ -12,10 +12,41 @@ export const profile = {
 
 export const navItems = [
   { id: 'sobre', label: 'Sobre', emoji: '🌸' },
+  { id: 'experiencia', label: 'Experiência', emoji: '💼' },
   { id: 'skills', label: 'Skills', emoji: '✨' },
   { id: 'projetos', label: 'Projetos', emoji: '🎮' },
   { id: 'contato', label: 'Contato', emoji: '💌' },
 ] as const
+
+export type Experience = {
+  id: string
+  period: string
+  title: string
+  description: string
+  isCurrent?: boolean
+}
+
+export const experiences: Experience[] = [
+  {
+    id: 'wk-jobhub',
+    period: '2026 – atual',
+    title: 'Full Stack Pleno · Wk JobHub',
+    description: 'Celebré Soluções Digitais & Abrutelecom — ponta a ponta com React, .NET e Azure.',
+    isCurrent: true,
+  },
+  {
+    id: 'bem-jr',
+    period: '2023 – 2025',
+    title: 'Programadora JR · Bem Promotora',
+    description: 'Design System, micro front-ends e testes automatizados.',
+  },
+  {
+    id: 'bem-estagio',
+    period: '2022 – 2023',
+    title: 'Estágio Full Stack · Bem Promotora',
+    description: 'React, TypeScript, ASP.NET Core MVC e SQL Server.',
+  },
+]
 
 export const skills = {
   frontend: ['React', 'TypeScript', 'Redux', 'Context API', 'SCSS', 'Styled Components', 'MUI'],

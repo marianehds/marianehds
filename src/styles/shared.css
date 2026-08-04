@@ -47,15 +47,6 @@
   color: var(--yellow);
 }
 
-.section__title--animated {
-  background: linear-gradient(90deg, #ffffff 0%, #ffd700 25%, #fff8dc 50%, #ffd700 75%, #ffffff 100%);
-  background-size: 300% auto;
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: rainbow-text 5s linear infinite;
-}
-
 .section__subtitle {
   margin-top: 0.5rem;
   color: var(--text-muted);
@@ -73,6 +64,8 @@
   font-size: 0.75rem;
   font-weight: 700;
   animation: pulse-glow 2.5s ease-in-out infinite;
+  width: fit-content;
+
 }
 
 .badge--outline {

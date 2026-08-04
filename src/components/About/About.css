@@ -14,25 +14,3 @@
   font-weight: 700;
   color: var(--yellow);
 }
-
-.about__timeline {
-  display: flex;
-  flex-direction: column;
-  gap: 1.25rem;
-  padding-top: 0.5rem;
-  border-top: 2px dashed rgb(255, 255, 255);
-}
-
-.about__job h3 {
-  margin-top: 0.5rem;
-  font-size: 1.05rem;
-  font-weight: 800;
-  color: #fff
-}
-
-
-.about__job p {
-  margin-top: 0.25rem;
-  color: var(--text-muted);
-  font-size: 0.95rem;
-}

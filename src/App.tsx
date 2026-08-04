@@ -5,6 +5,7 @@ import { CursorSparkles } from './components/CursorSparkles/CursorSparkles'
 import { Footer } from './components/Footer/Footer'
 import { Header } from './components/Header/Header'
 import { Hero } from './components/Hero/Hero'
+import { Jobs } from './components/Jobs/Jobs'
 import { Projects } from './components/Projects/Projects'
 import { Skills } from './components/Skills/Skills'
 import { SparkleField } from './components/SparkleField/SparkleField'
@@ -22,6 +23,7 @@ function App() {
         <About />
         <Projects />
         <Skills />
+        <Jobs />
         <Contact />
       </main>
       <Footer />
