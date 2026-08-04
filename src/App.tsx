@@ -1,5 +1,6 @@
 import { About } from './components/About/About'
 import { CloudField } from './components/CloudField/CloudField'
+import { Courses } from './components/Courses/Courses'
 import { Contact } from './components/Contact/Contact'
 import { CursorSparkles } from './components/CursorSparkles/CursorSparkles'
 import { Footer } from './components/Footer/Footer'
@@ -24,6 +25,7 @@ function App() {
         <Projects />
         <Skills />
         <Jobs />
+        <Courses />
         <Contact />
       </main>
       <Footer />

@@ -1,6 +1,6 @@
 import { experiences } from "../../data/profile";
 import { Reveal } from "../Reveal/Reveal";
-import "./Jobs.css"
+import "./Jobs.css";
 
 
 export function Jobs() {
