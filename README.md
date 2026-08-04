@@ -32,9 +32,7 @@
 
 ---
 
-<svg xmlns="http://www.w3.org/2000/svg" width="140" height="32" role="img" aria-label="Sobre">
-  <text x="0" y="24" fill="#F472B6" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="24" font-weight="600">🌸 Sobre</text>
-</svg>
+##  🌸 Sobre
 
 Desenvolvedora **Full Stack Pleno** com **4 anos de experiência** em aplicações web com **React**, **TypeScript** e **C# (.NET Core)**.
 
@@ -45,9 +43,7 @@ Atuo do front-end ao banco de dados — interfaces, APIs, modelagem, regras de n
 ---
 <div align="center">
 
-<svg xmlns="http://www.w3.org/2000/svg" width="200" height="32" role="img" aria-label="Tech stack">
-  <text x="100" y="24" text-anchor="middle" fill="#F472B6" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="24" font-weight="600">⭐ Tech stack</text>
-</svg>
+## ⭐ Tech stack
 
 </div>
 
@@ -59,9 +55,7 @@ Atuo do front-end ao banco de dados — interfaces, APIs, modelagem, regras de n
 
 ---
 
-<svg xmlns="http://www.w3.org/2000/svg" width="360" height="32" role="img" aria-label="Formação e certificações">
-  <text x="0" y="24" fill="#F472B6" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="24" font-weight="600">📚 Formação &amp; certificações</text>
-</svg>
+##  📚 Formação & certificações"
 
 
 - **Alura** — +35 cursos (Redux, React Hook Form, SQL Server, Git & GitHub, APIs Node.js e mais)
