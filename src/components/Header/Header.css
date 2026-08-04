@@ -29,16 +29,11 @@
 .header__logo {
   display: flex;
   align-items: center;
-  gap: 0.4rem;
   font-size: 1.2rem;
   font-weight: 800;
   color: var(--yellow-soft);
   white-space: nowrap;
   padding-bottom: 0.25rem;
-}
-
-.header__heart {
-  font-size: 1.35rem;
 }
 
 .header__nav {

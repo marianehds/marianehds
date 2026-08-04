@@ -12,9 +12,9 @@ export const profile = {
 
 export const navItems = [
   { id: 'sobre', label: 'Sobre' },
-  { id: 'experiencia', label: 'Experiência' },
-  { id: 'skills', label: 'Skills' },
   { id: 'projetos', label: 'Projetos' },
+  { id: 'skills', label: 'Skills' },
+  { id: 'experiencia', label: 'Experiência' },
   { id: 'contato', label: 'Contato' },
 ] as const
 

@@ -7,7 +7,7 @@ export function Footer() {
     <Reveal>
       <footer className="footer">
         <p>
-          💗 feito por <strong>{profile.name}</strong>
+          Feito por <strong>{profile.fullName}</strong>
         </p>
         <p className="footer__stars">
           <span className="footer__star">⭐</span>

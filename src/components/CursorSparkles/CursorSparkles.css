@@ -8,7 +8,9 @@
 
 .cursor-sparkle {
   position: fixed;
-  font-size: 0.85rem;
+  font-size: 0.75rem;
+  color: var(--yellow-soft);
+  text-shadow: 0 0 6px rgba(232, 200, 114, 0.6);
   pointer-events: none;
   animation: cursor-burst 0.8s ease-out forwards;
   transform: translate(-50%, -50%);

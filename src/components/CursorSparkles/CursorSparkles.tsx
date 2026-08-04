@@ -17,7 +17,7 @@ export function CursorSparkles() {
 
       const spark = document.createElement('span')
       spark.className = 'cursor-sparkle'
-      spark.textContent = ['✨', '⭐', '🌸', '💫'][Math.floor(Math.random() * 4)]
+      spark.textContent = ['⭐', '✦', '✧', '★'][Math.floor(Math.random() * 4)]
       spark.style.left = `${e.clientX}px`
       spark.style.top = `${e.clientY}px`
       container.appendChild(spark)

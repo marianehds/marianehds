@@ -17,7 +17,7 @@ export function Hero() {
         >
           {profile.role}
         </p>
-        <span>-------------------- ✨ ------------------</span>
+        <span className="hero__divider">-------------------- ✨ ------------------</span>
         <p
           className="hero__tagline anim-pop-in"
           style={{ animationDelay: "0.55s" }}

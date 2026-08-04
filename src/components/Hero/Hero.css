@@ -1,19 +1,19 @@
 .hero {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 2rem;
+  justify-content: center;
   max-width: var(--max-width);
   margin: 0 auto;
   padding: 3rem 1.5rem 2rem;
+  text-align: center;
 }
 
 .hero__content {
-  flex: 1;
   display: flex;
   flex-direction: column;
-  gap: 0.75rem;
-  width: 50%;
+  align-items: center;
+  gap: 0.85rem;
+  max-width: min(720px, 100%);
 }
 
 .hero__hello {
@@ -29,21 +29,28 @@
 }
 
 .hero__title {
-  font-size: clamp(2rem, 5vw, 3rem);
+  font-size: clamp(2.25rem, 5vw, 3.25rem);
   font-weight: 800;
   letter-spacing: -0.02em;
+  line-height: 1.15;
 }
 
 .hero__role {
-  font-size: 1.25rem;
+  font-size: clamp(1.25rem, 2.5vw, 1.5rem);
   font-weight: 700;
   color: #fff;
+}
+
+.hero__divider {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  letter-spacing: 0.08em;
+  opacity: 0.7;
 }
 
 .hero__tagline {
   color: var(--text);
   font-weight: 700;
-  max-width: 36ch;
 }
 
 .hero__dot {
@@ -54,6 +61,7 @@
 .hero__actions {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 0.75rem;
   margin-top: 0.5rem;
 }
@@ -93,41 +101,8 @@
   animation: wiggle 0.5s ease;
 }
 
-.hero__avatar {
-  position: relative;
-  flex-shrink: 0;
-  width: min(220px, 40vw);
-  aspect-ratio: 1;
-  display: grid;
-  place-items: center;
-}
-
-.hero__avatar-ring {
-  position: absolute;
-  inset: -8px;
-  border-radius: var(--radius);
-  border: 2px dashed rgba(232, 200, 114, 0.35);
-  animation: spin-slow 12s linear infinite;
-  opacity: 0.5;
-}
-
-.hero__avatar-emoji {
-  font-size: clamp(4rem, 10vw, 6rem);
-  position: relative;
-  z-index: 1;
-}
-
 @media (max-width: 768px) {
   .hero {
-    flex-direction: column-reverse;
-    text-align: center;
-  }
-
-  .hero__tagline {
-    max-width: none;
-  }
-
-  .hero__actions {
-    justify-content: center;
+    padding-top: 2rem;
   }
 }

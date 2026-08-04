@@ -43,7 +43,6 @@ export function Header() {
             window.scrollTo({ top: 0, behavior: 'smooth' })
           }}
         >
-          <span className="header__heart anim-heartbeat">💗</span>
           <span>{profile.name}</span>
         </a>
 
