@@ -55,7 +55,7 @@ Atuo do front-end ao banco de dados — interfaces, APIs, modelagem, regras de n
 
 ---
 
-##  📚 Formação & certificações"
+##  ✨ Formação & certificações
 
 
 - **Alura** — +35 cursos (Redux, React Hook Form, SQL Server, Git & GitHub, APIs Node.js e mais)
