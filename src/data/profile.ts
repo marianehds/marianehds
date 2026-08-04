@@ -59,7 +59,9 @@ export type Project = {
   title: string
   description: string
   tags: string[]
-  emoji: string
+  image?: string
+  viewUrl?: string
+  codeUrl?: string
   isNew?: boolean
 }
 
@@ -68,35 +70,36 @@ export const projects: Project[] = [
     id: 'cute-chaos',
     title: 'Cute Chaos',
     description: 'Site de vendas de itens impressos em 3D.',
+    image: '/projects/cute-chaos.png',
+    viewUrl: 'https://cutechaos.com.br',
     tags: ['React', 'Vite', 'TypeScript', 'SCSS'],
-    emoji: '🎨',
   },
   {
     id: 'design-system',
     title: 'Design System',
     description: 'Biblioteca de componentes reutilizáveis e micro front-ends com React, vite e storybook.',
+    image: '/projects/design-system.png',
+    viewUrl: 'https://marianehds.github.io/StarSystem/',
+    codeUrl: 'https://github.com/marianehds/StarSystem',
     tags: ['React', 'Vite', 'Storybook', 'SCSS'],
-    emoji: '🎨',
   },
   {
     id: 'pokedex',
     title: 'Pokedex',
     description: 'Pokedex com React, TypeScript, Vite e API de Pokémon.',
+    image: '/projects/pokedex.png',
     tags: ['React', 'TypeScript', 'Vite'],
-    emoji: '🐱',
   },
   {
     id: 'reading-room',
     title: 'Reading Room',
-    description: 'Aplicação web desenvolvida em Ruby on Rails para cadastro e exibição de livros lidos, com autenticação de usuários e integração com a API pública OpenLibrary.',
+    description: 'Aplicação web desenvolvida em Ruby on Rails para cadastro e exibição de livros lidos, com autenticação de usuários e integração com OpenLibrary.',
     tags: ['Ruby on Rails', 'PostgreSQL', 'JavaScript'],
-    emoji: '📚',
   },
   {
     id: 'vollappmobile',
     title: 'VollAppMobile',
     description: 'O projeto VollAppMobile é um projeto de estudo para desenvolvimento mobile com React Native e Expo.',
     tags: ['React Native', 'Expo', 'TypeScript'],
-    emoji: '📱',
   },
 ]

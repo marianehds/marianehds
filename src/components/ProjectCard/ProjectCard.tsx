@@ -13,7 +13,16 @@ export function ProjectCard({ project, index = 0 }: ProjectCardProps) {
       style={{ animationDelay: `${index * 0.05}s` }}
     >
       <div className="project-card__image">
-        <span className="project-card__emoji anim-float">{project.emoji}</span>
+        {project.image ? (
+          <img
+            src={project.image}
+            alt={`Preview do projeto ${project.title}`}
+            className="project-card__photo"
+            loading="lazy"
+          />
+        ) : (
+          <span className="project-card__placeholder">{project.title.charAt(0)}</span>
+        )}
       </div>
       <div className="project-card__body">
         <div className="project-card__top">
@@ -27,6 +36,34 @@ export function ProjectCard({ project, index = 0 }: ProjectCardProps) {
               {tag}
             </span>
           ))}
+        </div>
+        <div className="project-card__actions">
+          {project.viewUrl ? (
+            <a
+              href={project.viewUrl}
+              target="_blank"
+              rel="noreferrer"
+              className="project-card__btn"
+            >
+              View
+            </a>
+          ) : (
+            <span className="project-card__btn project-card__btn--disabled">View</span>
+          )}
+          {project.codeUrl ? (
+            <a
+              href={project.codeUrl}
+              target="_blank"
+              rel="noreferrer"
+              className="project-card__btn project-card__btn--outline"
+            >
+              Code
+            </a>
+          ) : (
+            <span className="project-card__btn project-card__btn--outline project-card__btn--disabled">
+              Code
+            </span>
+          )}
         </div>
       </div>
     </article>
