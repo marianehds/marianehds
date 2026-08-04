@@ -1,6 +1,8 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-export default defineConfig({
+// GitHub Pages: https://marianehds.github.io/marianehds/
+export default defineConfig(({ mode }) => ({
+  base: mode === 'pages' ? '/marianehds/' : '/',
   plugins: [react()],
-})
+}))

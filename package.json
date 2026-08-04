@@ -6,8 +6,10 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "build:pages": "tsc -b && vite build --mode pages",
     "lint": "oxlint",
     "preview": "vite preview",
+    "preview:pages": "npm run build:pages && vite preview --base /marianehds/",
     "preview:readme": "node scripts/preview-readme.mjs"
   },
   "dependencies": {

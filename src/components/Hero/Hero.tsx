@@ -31,7 +31,6 @@ export function Hero() {
           SQL Server
         </p>
       </div>
-      <div>foto</div>
     </section>
   );
 }
