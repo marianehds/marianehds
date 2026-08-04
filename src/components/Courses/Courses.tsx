@@ -8,7 +8,6 @@ export function Courses() {
       <Reveal>
         <div className="section__header">
           <h2 className="section__title">Cursos</h2>
-          <p className="section__subtitle">Formação contínua e certificações</p>
         </div>
       </Reveal>
 

@@ -6,6 +6,12 @@ type ProjectCardProps = {
   index?: number
 }
 
+function projectImageSrc(path: string) {
+  if (path.startsWith('http://') || path.startsWith('https://')) return path
+  const normalized = path.replace(/^\//, '')
+  return `${import.meta.env.BASE_URL}${normalized}`
+}
+
 export function ProjectCard({ project, index = 0 }: ProjectCardProps) {
   return (
     <article
@@ -15,7 +21,7 @@ export function ProjectCard({ project, index = 0 }: ProjectCardProps) {
       <div className="project-card__image">
         {project.image ? (
           <img
-            src={project.image}
+            src={projectImageSrc(project.image)}
             alt={`Preview do projeto ${project.title}`}
             className="project-card__photo"
             loading="lazy"

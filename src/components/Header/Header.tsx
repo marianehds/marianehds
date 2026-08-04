@@ -69,7 +69,7 @@ export function Header() {
             style={{ animationDelay: '0.5s' }}
             aria-label="LinkedIn"
           >
-            💼 LinkedIn
+            LinkedIn
           </a>
         </div>
       </div>
