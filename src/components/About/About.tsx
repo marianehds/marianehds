@@ -7,8 +7,8 @@ export function About() {
     <section id="sobre" className="section about">
       <Reveal>
         <div className="section__header">
-          <h2 className="section__title section__title--animated anim-title-sparkle">
-            <span>🌸</span> Sobre <span>🌸</span>
+          <h2 className="section__title  anim-title-sparkle">
+            <span>⭐</span> Sobre <span>⭐</span>
           </h2>
         </div>
       </Reveal>

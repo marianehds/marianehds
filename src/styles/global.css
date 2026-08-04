@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&display=swap');
 
 :root {
-  --bg: #a73a10;
+  --bg: #04052c;
   --bg-header: #fef2f6;
+  --yellow: #ffe600;
+  --yellow-dark: #534401;
   --pink: #e91e8c;
   --pink-dark: #d4147a;
   --pink-soft: #f472b6;

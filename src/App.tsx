@@ -20,8 +20,8 @@ function App() {
       <main className="app__main">
         <Hero />
         <About />
-        <Skills />
         <Projects />
+        <Skills />
         <Contact />
       </main>
       <Footer />

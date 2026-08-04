@@ -67,14 +67,14 @@
 }
 
 @keyframes pulse-glow {
-  0%, 100% { box-shadow: 0 0 0 0 var(--pink-glow), 0 4px 0 var(--border); }
-  50% { box-shadow: 0 0 20px 6px var(--pink-glow), 0 4px 0 var(--border); }
+  0%, 100% { box-shadow: 0 0 0 0 var(--yellow-glow), 0 4px 0 var(--border); }
+  50% { box-shadow: 0 0 20px 6px var(--yellow-glow), 0 4px 0 var(--border); }
 }
 
 @keyframes pulse-ring {
-  0% { box-shadow: 0 0 0 0 rgba(233, 30, 140, 0.5); }
-  70% { box-shadow: 0 0 0 12px rgba(233, 30, 140, 0); }
-  100% { box-shadow: 0 0 0 0 rgba(233, 30, 140, 0); }
+  0% { box-shadow: 0 0 0 0 rgba(255, 230, 0, 0.5); }
+  70% { box-shadow: 0 0 0 12px rgba(255, 230, 0, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(255, 230, 0, 0); }
 }
 
 @keyframes shimmer {
@@ -165,11 +165,11 @@
 .anim-shimmer-text {
   background: linear-gradient(
     90deg,
-    #000000 0%,
-    #000000 25%,
-    #131313 50%,
-    #53483e 75%,
-    #0a0a0a 100%
+    #534401 0%,
+    #534401 25%,
+    #ffe600 50%,
+    #ffe600 75%,
+    #534401 100%
   );
   background-size: 200% auto;
   -webkit-background-clip: text;
@@ -194,7 +194,6 @@
   *::after {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
   }
 
   .reveal,
