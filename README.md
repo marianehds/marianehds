@@ -32,7 +32,9 @@
 
 ---
 
-<img src="https://capsule-render.vercel.app/api?type=transparent&height=45&section=header&text=🌸%20Sobre&fontSize=24&fontColor=F472B6" alt="🌸 Sobre" />
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="32" role="img" aria-label="Sobre">
+  <text x="0" y="24" fill="#F472B6" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="24" font-weight="600">🌸 Sobre</text>
+</svg>
 
 Desenvolvedora **Full Stack Pleno** com **4 anos de experiência** em aplicações web com **React**, **TypeScript** e **C# (.NET Core)**.
 
@@ -43,7 +45,9 @@ Atuo do front-end ao banco de dados — interfaces, APIs, modelagem, regras de n
 ---
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=transparent&height=45&section=header&text=⭐%20Tech%20stack&fontSize=24&fontColor=F472B6" alt="⭐ Tech stack" />
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="32" role="img" aria-label="Tech stack">
+  <text x="100" y="24" text-anchor="middle" fill="#F472B6" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="24" font-weight="600">⭐ Tech stack</text>
+</svg>
 
 </div>
 
@@ -55,7 +59,9 @@ Atuo do front-end ao banco de dados — interfaces, APIs, modelagem, regras de n
 
 ---
 
-<img src="https://capsule-render.vercel.app/api?type=transparent&height=45&section=header&text=📚%20Formação%20%26%20certificações&fontSize=24&fontColor=F472B6" alt="📚 Formação & certificações" />
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="32" role="img" aria-label="Formação e certificações">
+  <text x="0" y="24" fill="#F472B6" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="24" font-weight="600">📚 Formação &amp; certificações</text>
+</svg>
 
 
 - **Alura** — +35 cursos (Redux, React Hook Form, SQL Server, Git & GitHub, APIs Node.js e mais)
