@@ -7,7 +7,7 @@ export function Jobs() {
     <section id="experiencia" className="section jobs">
       <Reveal>
         <div className="section__header">
-          <h2 className="section__title anim-title-sparkle">Experiência</h2>
+          <h2 className="section__title">Experiência</h2>
         </div>
       </Reveal>
 

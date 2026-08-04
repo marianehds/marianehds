@@ -23,13 +23,12 @@ export function Hero() {
           style={{ animationDelay: "0.55s" }}
         >
           React
-          <span style={{ color: "#ffe600", fontSize: 20 }}> · </span>
-          TypeScript<span style={{ color: "#ffe600", fontSize: 20 }}>
-            {" "}
-            ·{" "}
-          </span>{" "}
-          .NET<span style={{ color: "#ffe600", fontSize: 20 }}> · </span>SQL
-          Server
+          <span className="hero__dot"> · </span>
+          TypeScript
+          <span className="hero__dot"> · </span>
+          .NET
+          <span className="hero__dot"> · </span>
+          SQL Server
         </p>
       </div>
       <div>foto</div>

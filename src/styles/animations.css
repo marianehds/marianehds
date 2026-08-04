@@ -72,9 +72,9 @@
 }
 
 @keyframes pulse-ring {
-  0% { box-shadow: 0 0 0 0 rgba(255, 230, 0, 0.5); }
-  70% { box-shadow: 0 0 0 12px rgba(255, 230, 0, 0); }
-  100% { box-shadow: 0 0 0 0 rgba(255, 230, 0, 0); }
+  0% { box-shadow: 0 0 0 0 rgba(232, 200, 114, 0.45); }
+  70% { box-shadow: 0 0 0 12px rgba(232, 200, 114, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(232, 200, 114, 0); }
 }
 
 @keyframes shimmer {
@@ -165,27 +165,17 @@
 .anim-shimmer-text {
   background: linear-gradient(
     90deg,
-    #534401 0%,
-    #534401 25%,
-    #ffe600 50%,
-    #ffe600 75%,
-    #534401 100%
+    var(--text-heading) 0%,
+    var(--text-heading) 30%,
+    var(--yellow-soft) 50%,
+    var(--text-heading) 70%,
+    var(--text-heading) 100%
   );
   background-size: 200% auto;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: rainbow-text 4s linear infinite;
-}
-
-.anim-title-sparkle span:first-child,
-.anim-title-sparkle span:last-child {
-  display: inline-block;
-  animation: star-spin 3s ease-in-out infinite;
-}
-
-.anim-title-sparkle span:last-child {
-  animation-delay: 1.5s;
+  animation: rainbow-text 5s linear infinite;
 }
 
 @media (prefers-reduced-motion: reduce) {

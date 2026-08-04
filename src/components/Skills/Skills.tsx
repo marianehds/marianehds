@@ -13,7 +13,7 @@ export function Skills() {
     <section id="skills" className="section skills">
       <Reveal>
         <div className="section__header">
-          <h2 className="section__title anim-title-sparkle">Skills</h2>
+          <h2 className="section__title">Skills</h2>
           <p className="section__subtitle">Tecnologias que uso no dia a dia</p>
         </div>
       </Reveal>

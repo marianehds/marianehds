@@ -11,11 +11,11 @@ export const profile = {
 } as const
 
 export const navItems = [
-  { id: 'sobre', label: 'Sobre', emoji: '🌸' },
-  { id: 'experiencia', label: 'Experiência', emoji: '💼' },
-  { id: 'skills', label: 'Skills', emoji: '✨' },
-  { id: 'projetos', label: 'Projetos', emoji: '🎮' },
-  { id: 'contato', label: 'Contato', emoji: '💌' },
+  { id: 'sobre', label: 'Sobre' },
+  { id: 'experiencia', label: 'Experiência' },
+  { id: 'skills', label: 'Skills' },
+  { id: 'projetos', label: 'Projetos' },
+  { id: 'contato', label: 'Contato' },
 ] as const
 
 export type Experience = {

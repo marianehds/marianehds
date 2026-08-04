@@ -8,9 +8,7 @@ export function Projects() {
     <section id="projetos" className="section projects">
       <Reveal>
         <div className="section__header">
-          <h2 className="section__title anim-title-sparkle">
-            Projetos
-          </h2>
+          <h2 className="section__title">Projetos</h2>
         </div>
       </Reveal>
 

@@ -56,22 +56,23 @@ export function Header() {
               style={{ animationDelay: `${0.1 + i * 0.08}s` }}
               onClick={() => scrollTo(item.id)}
             >
-              <span className="header__pill-emoji">{item.emoji}</span>
               {item.label}
             </button>
           ))}
         </nav>
 
-        <a
-          href={profile.linkedin}
-          target="_blank"
-          rel="noreferrer"
-          className="glow-btn glass glass--circle anim-pop-in"
-          style={{ animationDelay: '0.5s' }}
-          aria-label="LinkedIn"
-        >
-          💼
-        </a>
+        <div className="header__social">
+          <a
+            href={profile.linkedin}
+            target="_blank"
+            rel="noreferrer"
+            className="glow-btn glass glass--pill anim-pop-in"
+            style={{ animationDelay: '0.5s' }}
+            aria-label="LinkedIn"
+          >
+            💼 LinkedIn
+          </a>
+        </div>
       </div>
     </header>
   )

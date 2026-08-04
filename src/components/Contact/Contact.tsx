@@ -7,9 +7,7 @@ export function Contact() {
     <section id="contato" className="section contact">
       <Reveal>
         <div className="section__header">
-          <h2 className="section__title anim-title-sparkle">
-            Contato
-          </h2>
+          <h2 className="section__title">Contato</h2>
         </div>
       </Reveal>
 

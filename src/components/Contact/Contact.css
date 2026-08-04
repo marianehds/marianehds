@@ -31,19 +31,18 @@
   gap: 0.35rem;
   padding: 0.65rem 1.1rem;
   border-radius: var(--radius-pill);
-  border: 1px solid rgba(255, 255, 255, 0.35);
-  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid var(--glass-border);
+  background: rgba(18, 28, 58, 0.45);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   font-weight: 700;
   color: #ffffff;
-  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.08);
-  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), background 0.2s ease, color 0.2s ease;
+  box-shadow: var(--glass-shadow);
+  transition: background 0.2s ease, border-color 0.2s ease, color 0.2s ease;
 }
 
 .contact__link:hover {
-  transform: translateY(-4px) scale(1.05);
-  background: rgba(255, 255, 255, 0.35);
+  background: rgba(26, 38, 72, 0.65);
+  border-color: rgba(232, 200, 114, 0.3);
   color: #ffffff;
-  animation: jello 0.5s ease;
 }
