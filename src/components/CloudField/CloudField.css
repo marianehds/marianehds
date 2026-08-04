@@ -1,0 +1,37 @@
+.cloud-field {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.cloud-field__cloud {
+  position: absolute;
+  left: 0;
+  width: 240px;
+  animation: cloud-drift-rtl linear infinite;
+  filter: drop-shadow(0 4px 12px rgba(255, 255, 255, 0.6));
+  will-change: transform;
+}
+
+.cloud-field__svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@keyframes cloud-drift-rtl {
+  from {
+    transform: translateX(110vw);
+  }
+  to {
+    transform: translateX(-120%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cloud-field {
+    display: none;
+  }
+}

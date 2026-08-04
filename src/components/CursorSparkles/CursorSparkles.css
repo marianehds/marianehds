@@ -1,0 +1,38 @@
+.cursor-sparkles {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9999;
+  overflow: hidden;
+}
+
+.cursor-sparkle {
+  position: fixed;
+  font-size: 0.85rem;
+  pointer-events: none;
+  animation: cursor-burst 0.8s ease-out forwards;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes cursor-burst {
+  0% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(0) rotate(0deg);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -80px) scale(1.2) rotate(180deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cursor-sparkles {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .cursor-sparkles {
+    display: none;
+  }
+}

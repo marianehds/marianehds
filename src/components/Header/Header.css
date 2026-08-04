@@ -1,0 +1,110 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(254, 242, 246, 0.55);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 2px solid var(--border);
+  transition: box-shadow 0.3s ease, background 0.3s ease;
+}
+
+.header--scrolled {
+  box-shadow: 0 4px 24px rgba(233, 30, 140, 0.15);
+  background: rgba(254, 242, 246, 0.72);
+}
+
+.header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0.85rem 1.5rem;
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: var(--pink);
+  white-space: nowrap;
+}
+
+.header__heart {
+  font-size: 1.5rem;
+}
+
+.header__nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.header__pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.45rem 1rem;
+  border-radius: var(--radius-pill);
+  border: 2px solid transparent;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--text-heading);
+  transition:
+    background 0.2s ease,
+    color 0.2s ease,
+    box-shadow 0.2s ease,
+    transform 0.2s ease;
+}
+
+.header__pill-emoji {
+  display: inline-block;
+}
+
+.header__pill:hover {
+  background: rgba(233, 30, 140, 0.08);
+  transform: translateY(-2px);
+}
+
+.header__pill:hover .header__pill-emoji {
+  animation: wiggle 0.4s ease;
+}
+
+.header__pill--active {
+  background: rgba(233, 30, 140, 0.88);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  color: #fff;
+  border-color: var(--border);
+  box-shadow: 0 3px 0 var(--border);
+  animation: pulse-glow 2.5s ease-in-out infinite;
+}
+
+.header__pill--active:hover {
+  background: var(--pink-dark);
+}
+
+@media (max-width: 768px) {
+  .header__inner {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .header__nav {
+    order: 3;
+    width: 100%;
+  }
+
+  .header__pill {
+    flex: 1;
+    justify-content: center;
+    min-width: calc(50% - 0.25rem);
+    font-size: 0.8rem;
+    padding: 0.4rem 0.6rem;
+  }
+}

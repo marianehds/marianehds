@@ -1,0 +1,129 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 3rem 1.5rem 2rem;
+}
+
+.hero__content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  width: 50%;
+}
+
+.hero__hello {
+  font-size: larger;
+  font-weight: 700;
+  color: #fff;
+}
+
+.hero__eyebrow {
+  font-weight: 700;
+  color: var(--pink-soft);
+  font-size: 0.95rem;
+}
+
+.hero__title {
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.hero__role {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.hero__tagline {
+  color: #fff;
+
+  font-weight: 700;
+
+  max-width: 36ch;
+}
+
+.hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+.hero__cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.65rem 1.25rem;
+  border-radius: var(--radius-pill);
+  border: 2px solid var(--border);
+  background: var(--pink);
+  color: #fff;
+  font-weight: 700;
+  box-shadow: 0 4px 0 var(--border);
+  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.hero__cta:hover {
+  transform: translateY(-4px) scale(1.05);
+  background: var(--pink-dark);
+}
+
+.hero__cta--outline {
+  color: var(--text-heading);
+  animation: none;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.08);
+}
+
+.hero__cta--outline:hover {
+  background: rgba(255, 255, 255, 0.32);
+  animation: wiggle 0.5s ease;
+}
+
+.hero__avatar {
+  position: relative;
+  flex-shrink: 0;
+  width: min(220px, 40vw);
+  aspect-ratio: 1;
+  display: grid;
+  place-items: center;
+}
+
+.hero__avatar-ring {
+  position: absolute;
+  inset: -8px;
+  border-radius: var(--radius);
+  border: 3px dashed var(--pink-soft);
+  animation: spin-slow 12s linear infinite;
+  opacity: 0.5;
+}
+
+.hero__avatar-emoji {
+  font-size: clamp(4rem, 10vw, 6rem);
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .hero__tagline {
+    max-width: none;
+  }
+
+  .hero__actions {
+    justify-content: center;
+  }
+}
