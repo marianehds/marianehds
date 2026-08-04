@@ -24,7 +24,7 @@
 
 .hero__eyebrow {
   font-weight: 700;
-  color: var(--pink-soft);
+  color: var(--yellow);
   font-size: 0.95rem;
 }
 
@@ -62,8 +62,8 @@
   padding: 0.65rem 1.25rem;
   border-radius: var(--radius-pill);
   border: 2px solid var(--border);
-  background: var(--pink);
-  color: #fff;
+  background: var(--yellow);
+  color: var(--bg);
   font-weight: 700;
   box-shadow: 0 4px 0 var(--border);
   transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
@@ -71,7 +71,8 @@
 
 .hero__cta:hover {
   transform: translateY(-4px) scale(1.05);
-  background: var(--pink-dark);
+  background: var(--yellow-dark);
+  color: #fff;
 }
 
 .hero__cta--outline {
@@ -102,7 +103,7 @@
   position: absolute;
   inset: -8px;
   border-radius: var(--radius);
-  border: 3px dashed var(--pink-soft);
+  border: 3px dashed var(--yellow);
   animation: spin-slow 12s linear infinite;
   opacity: 0.5;
 }

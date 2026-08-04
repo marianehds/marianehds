@@ -11,7 +11,7 @@
 .skills__card-title {
   font-size: 1.1rem;
   font-weight: 800;
-  color: var(--pink);
+  color: #ffffff;
   margin-bottom: 1rem;
 }
 
@@ -39,8 +39,8 @@
 
 .skills__pill:hover {
   transform: scale(1.1) rotate(-2deg);
-  background: var(--pink);
-  color: #fff;
+  background: var(--yellow);
+  color: var(--bg);
 }
 
 .skills__emoji {

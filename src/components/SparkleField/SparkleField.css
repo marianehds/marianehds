@@ -10,7 +10,7 @@
   position: absolute;
   animation: float-slow ease-in-out infinite;
   opacity: 0.45;
-  filter: drop-shadow(0 0 6px rgba(244, 114, 182, 0.4));
+  filter: drop-shadow(0 0 6px rgba(255, 230, 0, 0.4));
 }
 
 .sparkle-field__particle:nth-child(odd) {

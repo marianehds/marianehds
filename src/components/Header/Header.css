@@ -2,7 +2,7 @@
   position: sticky;
   top: 0;
   z-index: 100;
-  background: rgba(254, 242, 246, 0.55);
+  background: rgba(4, 5, 44, 0.65);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   border-bottom: 2px solid var(--border);
@@ -10,8 +10,8 @@
 }
 
 .header--scrolled {
-  box-shadow: 0 4px 24px rgba(233, 30, 140, 0.15);
-  background: rgba(254, 242, 246, 0.72);
+  box-shadow: 0 4px 24px rgba(255, 230, 0, 0.12);
+  background: rgba(4, 5, 44, 0.85);
 }
 
 .header__inner {
@@ -30,7 +30,7 @@
   gap: 0.4rem;
   font-size: 1.35rem;
   font-weight: 800;
-  color: var(--pink);
+  color: var(--yellow);
   white-space: nowrap;
 }
 
@@ -67,7 +67,7 @@
 }
 
 .header__pill:hover {
-  background: rgba(233, 30, 140, 0.08);
+  background: rgba(255, 230, 0, 0.12);
   transform: translateY(-2px);
 }
 
@@ -76,17 +76,18 @@
 }
 
 .header__pill--active {
-  background: rgba(233, 30, 140, 0.88);
+  background: rgba(255, 230, 0, 0.9);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
-  color: #fff;
+  color: var(--bg);
   border-color: var(--border);
   box-shadow: 0 3px 0 var(--border);
   animation: pulse-glow 2.5s ease-in-out infinite;
 }
 
 .header__pill--active:hover {
-  background: var(--pink-dark);
+  background: var(--yellow-dark);
+  color: #fff;
 }
 
 @media (max-width: 768px) {

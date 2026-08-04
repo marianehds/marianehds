@@ -14,7 +14,7 @@
 
 .contact__text {
   max-width: 42ch;
-  color: var(--text-muted);
+  color: #ffffff;
   font-size: 1.05rem;
 }
 
@@ -36,14 +36,14 @@
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   font-weight: 700;
-  color: var(--pink);
+  color: #ffffff;
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.08);
   transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), background 0.2s ease, color 0.2s ease;
 }
 
 .contact__link:hover {
   transform: translateY(-4px) scale(1.05);
-  background: var(--pink);
-  color: #fff;
+  background: rgba(255, 255, 255, 0.35);
+  color: #ffffff;
   animation: jello 0.5s ease;
 }
