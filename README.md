@@ -43,32 +43,11 @@ Atuo do front-end ao banco de dados — interfaces, APIs, modelagem, regras de n
 ---
 <h2 align="center">⭐ Tech stack</h2>
 
-<table width="100%">
-  <thead>
-    <tr>
-      <th align="center">Frontend</th>
-      <th align="center">Backend & dados</th>
-      <th align="center">Ferramentas</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td align="center">React · TypeScript</td>
-      <td align="center">C# · .NET Core</td>
-      <td align="center">Git · Azure</td>
-    </tr>
-    <tr>
-      <td align="center">Redux · Context API</td>
-      <td align="center">SQL Server</td>
-      <td align="center">Playwright · Jest</td>
-    </tr>
-    <tr>
-      <td align="center">SCSS · Styled Components · MUI</td>
-      <td align="center">ASP.NET Core MVC</td>
-      <td align="center">Figma</td>
-    </tr>
-  </tbody>
-</table>
+| Frontend | Backend & dados <img width="1200" height="0"> | Ferramentas |
+| :---: | :---: | :---: |
+| React · TypeScript | C# · .NET Core | Git · Azure |
+| Redux · Context API | SQL Server | Playwright · Jest |
+| SCSS · Styled Components · MUI | ASP.NET Core MVC | Figma |
 
 ---
 
