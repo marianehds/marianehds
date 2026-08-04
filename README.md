@@ -2,12 +2,12 @@
 
 # ✨ Mariane Halberstadt de Souza ✨
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1000&color=F472B6&center=true&vCenter=true&width=520&lines=Desenvolvedora+Full+Stack+Pleno;React+%7C+TypeScript+%7C+.NET+%7C+SQL+Server" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=28&pause=1000&color=F472B6&center=true&vCenter=true&width=520&lines=Desenvolvedora+Full+Stack+Pleno;React+%7C+TypeScript+%7C+.NET+%7C+SQL+Server" alt="Typing SVG" />
 
 <br />
 
 <a href="https://www.google.com" target="_blank">
-  <img src="https://capsule-render.vercel.app/api?type=transparent&height=65&section=header&text=Acesse%20meu%20Portf%C3%B3lio%20clicando%20aqui%20🌸&fontSize=20&fontColor=F472B6&animation=twinkling" alt="Acesse meu Portfólio clicando aqui 🌸" />
+  <img src="https://capsule-render.vercel.app/api?type=transparent&height=65&section=header&text=Acesse%20meu%20Portf%C3%B3lio%20clicando%20aqui%20&fontSize=20&fontColor=FFD700&animation=twinkling" alt="Acesse meu Portfólio clicando aqui" />
 </a>
 
 <br />
@@ -32,7 +32,7 @@
 
 ---
 
-## 🌸 Sobre
+<h2><font color="#F472B6">🌸 Sobre</font></h2>
 
 Desenvolvedora **Full Stack Pleno** com **4 anos de experiência** em aplicações web com **React**, **TypeScript** e **C# (.NET Core)**.
 
@@ -41,7 +41,7 @@ Atuo do front-end ao banco de dados — interfaces, APIs, modelagem, regras de n
 🎓 Bacharelado em **Ciência da Computação** (2021 – 2028)
 
 ---
-<h2 align="center">⭐ Tech stack</h2>
+<h2 align="center"><font color="#F472B6">⭐ Tech stack</font></h2>
 
 | Frontend | Backend & dados <img width="1200" height="0"> | Ferramentas |
 | :---: | :---: | :---: |
@@ -51,7 +51,8 @@ Atuo do front-end ao banco de dados — interfaces, APIs, modelagem, regras de n
 
 ---
 
-## 📚 Formação & certificações
+<h2><font color="#F472B6">✨ Formação & certificações</font></h2>
+
 
 - **Alura** — +35 cursos (Redux, React Hook Form, SQL Server, Git & GitHub, APIs Node.js e mais)
 - Perfil: [Alura/marianeh](https://www.alura.com.br/user/marianeh)
