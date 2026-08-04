@@ -10,7 +10,8 @@
     "lint": "oxlint",
     "preview": "vite preview",
     "preview:pages": "npm run build:pages && vite preview --base /marianehds/",
-    "preview:readme": "node scripts/preview-readme.mjs"
+    "preview:readme": "node scripts/preview-readme.mjs",
+    "deploy": "npm run build:pages && gh-pages -d dist"
   },
   "dependencies": {
     "react": "^19.2.8",
@@ -22,6 +23,7 @@
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^6.0.4",
     "oxlint": "^1.75.0",
+    "gh-pages": "^6.3.0",
     "typescript": "~6.0.2",
     "vite": "^8.2.0"
   }
